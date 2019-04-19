@@ -48,6 +48,7 @@
                             <argument>-Xms1024m</argument>
                         </arguments>
                     </jMeterProcessJVMSettings>
+                    <ignoreResultFailures>true</ignoreResultFailures>
                 </configuration>
                 <executions>
                     <execution>
@@ -65,9 +66,6 @@
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                	<ignoreResultFailures>true</ignoreResultFailures>
-                 </configuration>
             </plugin>
         </plugins>
     </build>
