@@ -65,6 +65,10 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                        <ignoreResultFailures>true</ignoreResultFailures>
+                    </configuration>
+
             </plugin>
         </plugins>
     </build>
