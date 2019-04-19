@@ -18,7 +18,7 @@
                		<!--  <testFilesDirectory>/scratch/testfiles/</testFilesDirectory> -->
                		<!-- 指定测试文件 -->
                		 <testFilesIncluded>
-                            <jMeterTestFile>ssmmaven.jmx</jMeterTestFile>
+                            <jMeterTestFile>mvn-demo.jmx</jMeterTestFile>
                         </testFilesIncluded>
                		
                     <errorRateThresholdInPercent>1</errorRateThresholdInPercent>
